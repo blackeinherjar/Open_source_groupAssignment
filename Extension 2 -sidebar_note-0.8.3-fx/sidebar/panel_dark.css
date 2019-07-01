@@ -1,0 +1,9 @@
+#note {
+    background-color: hsl(0, 0%, 15%);
+    color: hsl(0, 0%, 85%);
+}
+
+#note::selection {
+    background: hsla(0, 0%, 85%, 0.3);
+    color: hsl(0, 0%, 85%);
+}
