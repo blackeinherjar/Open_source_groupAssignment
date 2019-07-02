@@ -10,13 +10,7 @@
 	width: 243px;
 	height: auto;
 	
-
-.top span.clear {
-	background: #ff9fa8;
-	font-family: Verdana;
-	box-shadow: 0px 3px #ff7c87;
-	color: #ffffff;
-}	
+	
 
 	
 	background: #00FF33;
@@ -24,7 +18,6 @@
 	border-radius: 4px;
 	box-shadow: 0px 3px 2px #003333, 0px 7px 10px rgba(0, 0, 0, 0.2);
 }
-
 
 /* Top portion */
 .top span.clear {
@@ -86,12 +79,10 @@
 	transition: all 0.2s ease;
 }
 
-
 #copy-result{
 	width: 116px;
 	background: #B2CBFF;
 }
-
 
 /* Remove right margins from operator keys */
 /* style different type of keys (operators/evaluate/clear) differently */
@@ -101,8 +92,61 @@
 	margin-right: 6px;
 	box-shadow: 0px 3px #b28f00;
 }
+
+.keys span.eval {
+	background: #f1ff92;
+	box-shadow: 0px 3px #9da853;
+	color: #888e5f;
+}
+
+.top span.clear {
+	background: #ff9fa8;
+	font-family: Verdana;
+	box-shadow: 0px 3px #ff7c87;
+	color: #ffffff;
+}
+
+/* Some hover effects */
+.keys span:hover {
+	background: #9c89f6;;
+	box-shadow: 0px 3px #6b54d3;
+	color: #ffffff;
+}
+
+.keys span.operator:hover{
+	background: #ffe680;
+	box-shadow: 0px 3px #997a00;
+
+}
+
 .keys span.eval:hover {
 	background: #abb850;
 	box-shadow: 0px 3px #717a33;
 	color: #ffffff;
+}
+
+.top span.clear:hover {
+	background: #f68991;
+	box-shadow: 0px 3px #d3545d;
+	color: #ffffff;
+}
+
+/* Simulating "pressed" effect on active state of the keys by removing the box-shadow and moving the keys down a bit */
+.keys span:active {
+	box-shadow: 0px 0px #6b54d3;
+	top: 4px;
+}
+
+.keys span.operator:active{
+	box-shadow: 0px 0px #997a00;
+}
+
+.keys span.eval:active {
+	box-shadow: 0px 0px #717a33;
+	top: 4px;
+}
+
+.top span.clear:active {
+	top: 4px;
+	box-shadow: 0px 0px #d3545d;
 }
