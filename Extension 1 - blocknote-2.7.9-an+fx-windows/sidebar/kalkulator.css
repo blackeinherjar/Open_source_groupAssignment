@@ -79,3 +79,9 @@
 	/* Smoothing out hover and active states using css3 transitions */
 	transition: all 0.2s ease;
 }
+
+
+#copy-result{
+	width: 116px;
+	background: #B2CBFF;
+}
