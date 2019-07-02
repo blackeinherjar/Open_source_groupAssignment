@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="panel.css" type='text/css' />
+	<link rel="stylesheet" href="print.css"	media="print" type="text/css" />
+
+	<link rel="stylesheet" type="text/css" href="kalkulator.css"/>
+</head>
+
+<body>
+<div id="bar_1">
+	<div class="div_left">
+		&nbsp;<input id="bClean" name="bClean" type="image" src="../icons/icon_reset.png" alt="Clean" title="Clean" /> 
+		&nbsp;<input id="bLoadFromFile" name="bLoadFromFile" type="image" src="../icons/icon_load_from_file.png" alt="LoadFromFile" title="LoadFromFile" /> 
+		&nbsp;<input id="bSaveToFile" name="bSaveToFile" type="image" src="../icons/icon_save_to_file.png" alt="SaveToFile" title="SaveToFile" /> 
+	</div>
+	<div class="div_right">
+		&nbsp;<input id="bRemove" name="bRemove" type="image" src="../icons/icon_remove_note.png" alt="Remove" title="Remove" /> 
+		&nbsp;<input id="bAdd" name="bAdd" type="image" src="../icons/icon_add_note.png" alt="Add" title="Remove" /> 
+		&nbsp;<select class="select_nota" id="select_note" name="select_note"></select>
+	</div>
+</div>
+<div id="bar_2">
+	<input id="bLoadFromFile_file" name="bLoadFromFile_file" type="file" />
+</div>
+<div id="bar_3">
+	<div class="div_right">
+		<input id="bUrl" name="bUrl" type="image" src="../icons/icon_get_url.png" alt="getUrl" title="getUrl" /> &nbsp;&nbsp;
+		<input type="text" id="nome_new_nota" placeholder="name_new_note" value=""/>
+		&nbsp;<input id="bConfirm" name="bConfirm" type="image" src="../icons/icon_confirm_note.png" alt="Confirm" title="Confirm" /> &nbsp;&nbsp;
+	</div>
+</div>
+
+<div id="title_print"></div>
+
+
+<div style="display: inline">
+
+
+<span>change font color</span>
+<select id="selectfontcolor">
+  <option value="green">Green</option>
+  <option value="orange">Orange</option>
+  <option value="yellow">Yellow</option>
+   <option value="purple">Purple</option>
+  <option value="pink">Pink</option>
+  <option value="black">Black</option>
+
+</select>
+
+
+
+<span>change font size</span>
+<select id="selectfontsize">
+  <option value="10">10</option>
+  <option value="20">20</option>
+  <option value="30">30</option>
+  <option value="40">40</option>
+   <option value="50">50</option>
+  <option value="60">60</option>
+
+</select>
+
+<input type="checkbox" name="calculator_check" id="calculator_check"><img  src="calculator.png">
+
+</div>
+
+
+
+<textarea  style="margin-top: 5px" name="contenuto_nota" id="contenuto_nota"></textarea>
+<div id="text_area_print"></div>
+<div>
+<div class="div_left">
+	<!-- <input id="bHelp" name="bHelp" type="image" src="../icons/icon_help.png" alt="Old note" title="Old note" /> -->
+</div>
+<div class="div_right">
+	<input id="bPrint_note" name="bPrint_note" type="image" src="../icons/icon_print.png" alt="Print" title="Print" /> 
+	<input id="bBackup" name="bBackup" type="image" src="../icons/icon_backup.png" alt="Backup" title="Backup" /> 
+	<!-- <input id="bPath" name="bPath" type="image" src="../icons/icon_path.png" alt="Path" title="Path" /> -->
+</div>
+</div>
+<div id="message">The Note generated with old version of BlockNote can be find in folder similar this PATH: "C:\Users\USER-NAME\AppData\Roaming\Mozilla\Firefox\Profiles\RANDOM-STRING.default\appunti"</div>
+
+
+<script src="panel.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="calculator" style="margin-top: 20px" hidden="">
+	<!-- Screen and clear key -->
+	<div class="top">
+		<span class="clear">C</span>
+		<div class="screen"></div>
+	</div>
+	<div class="keys">
+		<!-- operators and other keys -->
+		<span id="copy-result">copy</span>
+		<span class="operator" id="power"><math><msup><mi>X</mi><mn>y</mn></msup></math></span>
+		<span class="operator">%</span>
+		<span>7</span>
+		<span>8</span>
+		<span>9</span>
+		<span class="operator">+</span>
+		<span>4</span>
+		<span>5</span>
+		<span>6</span>
+		<span class="operator">-</span>
+		<span>1</span>
+		<span>2</span>
+		<span>3</span>
+		<span class="operator">/</span>
+		<span>0</span>
+		<span>.</span>
+		<span class="eval">=</span>
+		<span class="operator">x</span>
+	</div>
+</div>
+
+
+
+
+</body>
+
+<script src="change.js"></script>
+<script src="kalkulator.js" type="application/javascript"></script>
+
+</html>
+
+
