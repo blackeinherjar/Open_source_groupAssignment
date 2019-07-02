@@ -85,3 +85,13 @@
 	width: 116px;
 	background: #B2CBFF;
 }
+
+
+/* Remove right margins from operator keys */
+/* style different type of keys (operators/evaluate/clear) differently */
+.keys span.operator {
+	float: right;
+	background: #fff066;
+	margin-right: 6px;
+	box-shadow: 0px 3px #b28f00;
+}
