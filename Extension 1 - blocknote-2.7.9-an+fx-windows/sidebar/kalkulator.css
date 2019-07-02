@@ -10,7 +10,13 @@
 	width: 243px;
 	height: auto;
 	
-	
+
+.top span.clear {
+	background: #ff9fa8;
+	font-family: Verdana;
+	box-shadow: 0px 3px #ff7c87;
+	color: #ffffff;
+}	
 
 	
 	background: #00FF33;
