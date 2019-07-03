@@ -1,0 +1,47 @@
+{
+    "extensionName": {
+        "message": "Sidebar Note"
+    },
+    "extensionDescription": {
+        "message": "サイドバーにノートを追加します。"
+    },
+    "sidebarActionDefaultTitle": {
+        "message": "ノート"
+    },
+    "browserActionDefaultTitle": {
+        "message": "ノートを開く"
+    },
+    "softWrapText": {
+        "message": "右端で折り返す"
+    },
+    "saveScrollPositionText": {
+        "message": "スクロール位置を保存する"
+    },
+    "darkThemeText": {
+        "message": "ダークテーマ"
+    },
+    "fontText": {
+        "message": "フォント"
+    },
+    "fontSizeText": {
+        "message": "フォントサイズ"
+    },
+    "addToNote": {
+        "message": "ノートへ送る"
+    },
+    "showAddToNoteContextMenuText": {
+        "message": "ノートへ送るをコンテキストメニューに表示する"
+    },
+    "enableToggleNoteKeyboardShortcutText": {
+        "message": "ノートの表示を切り替えるキーボードショートカットを有効にする"
+    },
+    "toggleNoteKeyboardShortcutText": {
+        "message": "ノートの表示を切り替えるキーボードショートカット"
+    },
+    "keyboardShortcutExample": {
+        "message": "Ctrl+1, Alt+2, Ctrl+Shift+Z, Alt+Shift+Y, F1, 等"
+    },
+    "toggleNote": {
+        "message": "ノートの表示を切り替える"
+    }
+}

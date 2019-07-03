@@ -1,0 +1,82 @@
+Manifest-Version: 1.0
+
+Name: background.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: x3/jsx34+hp+bIs43c5mzdDLrkI=
+SHA256-Digest: ybwPjGjMBcef+CuIDTI4XCoiAkM4oz+74SZzCqGLeRA=
+
+Name: manifest.json
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: ezL7vT7keRR7bFuKB4+nLxVO1sM=
+SHA256-Digest: 9kySW9LTobGruNe4Gih83CBM2tOglq2U8+Pdyn2Pcw4=
+
+Name: icons/sidebar-note-96.png
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: OM5lnQq7Oyk/mTHk8sZX6mD2CT0=
+SHA256-Digest: 50v3BWsbTyoJY9huCnmJeCNoV942WY7sgfypBh2iF0s=
+
+Name: icons/sidebar-note-48.png
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: zY0eJnfdqWqjzN3AzSVOBfLUhas=
+SHA256-Digest: WlDgFTmyp1K9oOq7CT28TqJzVQeLcf5k8ledVIp2mRw=
+
+Name: icons/sidebar-note.svg
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: eU66fZgjTCTB8xh7cnsQ9M9T+vk=
+SHA256-Digest: tI36jma77YRezRccA6Qqo3/1MWn3VjHYFvexXGj3Bco=
+
+Name: options/options.css
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 7ndyQtOoJ3GUbXS2+qj5CUqcf3s=
+SHA256-Digest: HhzAFwDpTKsi07uWgUmfNoIgkE/waExuxubEw3Ny2/U=
+
+Name: options/options.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: jnjzoDqzfGhOxjSPtxIShe3tzW4=
+SHA256-Digest: yvAHodXS+GbXn3TF9XBVbYdX0kMyROzNIkesml/WfLA=
+
+Name: options/options.html
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: kExdBaKVahgb4jGTBTMGd2aTwiw=
+SHA256-Digest: f2xDlxOfJUJV0joXRkSu/Aj5cyRSb9Z/+iX/puDYHI4=
+
+Name: _locales/en/messages.json
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: XDtawdqA/eQv9XfYGJZ/PgoiZlI=
+SHA256-Digest: Ip/l/hKduliJBpbuHalxsjzjL2Bmc5KngZgtw+bZXdA=
+
+Name: _locales/ja/messages.json
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: VIcCczFTBfsV3PgTL1k9QxXB+XQ=
+SHA256-Digest: eDA7U/YBDaS+2sFnPwO1QfXA2y4xpo3HTA59zJJSJtc=
+
+Name: sidebar/panel_dark.css
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: lHc78oo4VPWFkUl8Aj6jezhvxUU=
+SHA256-Digest: 7KrfBDFH+6qjgz4kxOhkdPqcIl9YkzUKwMl6cC6pbgE=
+
+Name: sidebar/panel.html
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: OWeqh8O3bckGEDqZXQWJ1MD8+iw=
+SHA256-Digest: Q2Y2OOSFRANap8Gl6d/rw9qFIyIpiarWBzQG5sP0enw=
+
+Name: sidebar/panel.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: XTylSVSiHrhmI+P/xyo29/rtiwE=
+SHA256-Digest: yCnsZyALKffdWqeCy9QCO/baxsdcJRcGMu6bsTP1gzg=
+
+Name: sidebar/panel.css
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: eqotZMHBr3VBWf2ZZ1UpParqbeY=
+SHA256-Digest: WY5h/SQFAYoF+ll6EiNtaZ8F/27mrPdvfvvE8lWU0Hw=
+
+Name: META-INF/cose.manifest
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: UPSLpjUwpiWKTTviodiwfjYBQB4=
+SHA256-Digest: FKMWarPHU2tQfs7e1V9FHN70Rk/38skt11PkC9I6qnQ=
+
+Name: META-INF/cose.sig
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: skwHBrHmDXomZciTfhtHrN/g2gc=
+SHA256-Digest: okDEjoqU1vTmRs/s8mLYIJyYd6PMD9C/zgb0vYOZE+M=
+

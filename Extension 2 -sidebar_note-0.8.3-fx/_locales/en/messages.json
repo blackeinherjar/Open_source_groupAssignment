@@ -1,0 +1,38 @@
+{
+    "extensionName": {
+        "message": "Sidebar Note"
+    },
+    "extensionDescription": {
+        "message": "Add a note to the sidebar."
+    },
+    "sidebarActionDefaultTitle": {
+        "message": "Note"
+    },
+    "browserActionDefaultTitle": {
+        "message": "Open note"
+    },
+    "softWrapText": {
+        "message": "Soft wrap"
+    },
+    "saveScrollPositionText": {
+        "message": "Save scroll position"
+    },
+    "darkThemeText": {
+        "message": "Dark theme"
+    },
+    "fontText": {
+        "message": "Font"
+    },
+    "fontSizeText": {
+        "message": "Font size"
+    },
+    "addToNote": {
+        "message": "Add to Note"
+    },
+    "showAddToNoteContextMenuText": {
+        "message": "Show add to note context menu"
+    },
+    "toggleNote": {
+        "message": "Toggle note"
+    }
+}
